@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SOTPTextField
 //
-//  Created by neelpurohit-sgit on 08/04/2023.
-//  Copyright (c) 2023 neelpurohit-sgit. All rights reserved.
+//  Created by sahilshaligram on 08/04/2023.
+//  Copyright (c) 2023 sahilshaligram. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }

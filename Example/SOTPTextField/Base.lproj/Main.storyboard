@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +18,47 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oDb-35-BMq" customClass="SOTPTextField" customModule="SOTPTextField">
+                                <rect key="frame" x="24" y="316.5" width="327" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkp-w3-goj">
+                                <rect key="frame" x="24" y="358.5" width="327" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="VqQ-bY-pid"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Verify OTP"/>
+                                <connections>
+                                    <action selector="verifyOtlBtnAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZKI-Ep-EjD"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oDb-35-BMq" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="5rW-qv-Y1a"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oDb-35-BMq" secondAttribute="trailing" constant="8" id="BhM-7K-Mr1"/>
+                            <constraint firstItem="gkp-w3-goj" firstAttribute="top" secondItem="oDb-35-BMq" secondAttribute="bottom" constant="8" id="CvP-7n-Mkh"/>
+                            <constraint firstItem="oDb-35-BMq" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="S8u-Ub-shD"/>
+                            <constraint firstItem="gkp-w3-goj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="8" id="bzz-rt-9Tf"/>
+                            <constraint firstItem="oDb-35-BMq" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="raq-uI-Cbn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gkp-w3-goj" secondAttribute="trailing" constant="8" id="tR4-MO-rRb"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="otpTextField" destination="oDb-35-BMq" id="OTf-7w-YJ9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79" y="-69"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="oDb-35-BMq">
+            <size key="intrinsicContentSize" width="32" height="34"/>
+        </designable>
+    </designables>
 </document>

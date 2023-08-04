@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SOTPTextField'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SOTPTextField.'
+  s.summary          = 'OTP verification functionality using Textfield.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,19 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'OTP textfield get the code verified by the function verifyCode.'
 
-  s.homepage         = 'https://github.com/neelpurohit-sgit/SOTPTextField'
+  s.homepage         = 'https://github.com/sahilshaligram/SOTPTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'neelpurohit-sgit' => '107862397+neelpurohit-sgit@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/neelpurohit-sgit/SOTPTextField.git', :tag => s.version.to_s }
+  s.author           = { 'sahilshaligram' => '126651068+sahilshaligram@users.noreply.github.com' }
+  s.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
+  s.swift_version = '5.6'
   s.source_files = 'SOTPTextField/Classes/**/*'
   
   # s.resource_bundles = {
