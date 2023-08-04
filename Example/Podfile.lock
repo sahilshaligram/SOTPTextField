@@ -1,0 +1,16 @@
+PODS:
+  - SOTPTextField (0.1.0)
+
+DEPENDENCIES:
+  - SOTPTextField (from `../`)
+
+EXTERNAL SOURCES:
+  SOTPTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SOTPTextField: 169a22f3a04bfb9602635da4daff230552cb3546
+
+PODFILE CHECKSUM: 821dd02d5da072060bebd393ec6cf5cf50ac0195
+
+COCOAPODS: 1.12.1

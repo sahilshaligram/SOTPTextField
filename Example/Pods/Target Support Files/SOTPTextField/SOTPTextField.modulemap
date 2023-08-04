@@ -1,0 +1,6 @@
+framework module SOTPTextField {
+  umbrella header "SOTPTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
