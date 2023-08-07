@@ -22,11 +22,10 @@ Pod::Spec.new do |spec|
   spec.homepage         = 'https://github.com/sahilshaligram/SOTPTextField'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'sahilshaligram' => '126651068+sahilshaligram@users.noreply.github.com' }
-  spec.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => s.version.to_s }
+  spec.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => spec.version.to_s }
   
   spec.source_files = 'SOTPTextField/Classes/**/*'
   
-  spec.git = 'https://github.com/sahilshaligram/SOTPTextField.git'
   # s.resource_bundles = {
   #   'SOTPTextField' => ['SOTPTextField/Assets/*.png']
   # }
