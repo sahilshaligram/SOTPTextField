@@ -51,8 +51,9 @@ import SOTPTextField
 @IBOutlet weak var otpTextField: SOTPTextField!
 ```
 
+### verify OTP
  - Verify the otp using the 'verifyOTP' function
-### verify OTP 
+  
  ```swift
 otpTextField.verifyOTP("456789") { isVerified in
     if isVerified {
