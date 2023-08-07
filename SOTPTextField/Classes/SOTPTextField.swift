@@ -1,10 +1,3 @@
-//
-//  SOTPTextField.swift
-//  SOTPTextField
-//
-//  Created by Sahil Thaker on 04/08/23.
-//
-
 import UIKit
 import Foundation
 
