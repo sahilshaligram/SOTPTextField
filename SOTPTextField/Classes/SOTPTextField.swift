@@ -128,7 +128,7 @@ public class SOTPTextField: UITextField {
         otpView?.distribution = .fillEqually
         otpView?.sizeToFit()
         addSubview(otpView!)
-        bringSubview(toFront: otpView!)
+        bringSubviewToFront(otpView!)
         for i in 0..<number {
             prepareTextfields()
             arrTextfields[i].tag = i
