@@ -18,8 +18,8 @@
 		BD02DAC42A80F77300FBC4FB /* inValid OTP View.png in Resources */ = {isa = PBXBuildFile; fileRef = BD02DAC32A80F77300FBC4FB /* inValid OTP View.png */; };
 		BD18F6B92A80EDDA0009AE69 /* initial view.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B42A80EDDA0009AE69 /* initial view.png */; };
 		BD18F6BA2A80EDDA0009AE69 /* verified View.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B52A80EDDA0009AE69 /* verified View.png */; };
-		BD18F6BC2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */; };
-		BD18F6BD2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */; };
+		BD18F6BC2A80EDDA0009AE69 /* PropertiesSS.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B72A80EDDA0009AE69 /* PropertiesSS.png */; };
+		BD18F6BD2A80EDDA0009AE69 /* ClassSS.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B82A80EDDA0009AE69 /* ClassSS.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		BD02DAC32A80F77300FBC4FB /* inValid OTP View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inValid OTP View.png"; sourceTree = "<group>"; };
 		BD18F6B42A80EDDA0009AE69 /* initial view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "initial view.png"; sourceTree = "<group>"; };
 		BD18F6B52A80EDDA0009AE69 /* verified View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verified View.png"; sourceTree = "<group>"; };
-		BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 2.26.05 PM.png"; sourceTree = "<group>"; };
-		BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 1.59.46 PM.png"; sourceTree = "<group>"; };
+		BD18F6B72A80EDDA0009AE69 /* PropertiesSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PropertiesSS.png; sourceTree = "<group>"; };
+		BD18F6B82A80EDDA0009AE69 /* ClassSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClassSS.png; sourceTree = "<group>"; };
 		D45E681F7C3101E6C8BC2B21 /* Pods_SOTPTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOTPTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C25F09202656E40814D6A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB75936C5F38E7670DAE992A /* Pods-SOTPTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOTPTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-SOTPTextField_Example/Pods-SOTPTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -176,8 +176,8 @@
 				BD02DAC32A80F77300FBC4FB /* inValid OTP View.png */,
 				BD18F6B42A80EDDA0009AE69 /* initial view.png */,
 				BD18F6B52A80EDDA0009AE69 /* verified View.png */,
-				BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */,
-				BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */,
+				BD18F6B72A80EDDA0009AE69 /* PropertiesSS.png */,
+				BD18F6B82A80EDDA0009AE69 /* ClassSS.png */,
 			);
 			path = ScreenShots;
 			sourceTree = "<group>";
@@ -273,14 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD18F6BC2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */,
+				BD18F6BC2A80EDDA0009AE69 /* PropertiesSS.png in Resources */,
 				BD18F6B92A80EDDA0009AE69 /* initial view.png in Resources */,
 				BD02DAC42A80F77300FBC4FB /* inValid OTP View.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				BD18F6BA2A80EDDA0009AE69 /* verified View.png in Resources */,
-				BD18F6BD2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */,
+				BD18F6BD2A80EDDA0009AE69 /* ClassSS.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
