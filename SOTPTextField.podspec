@@ -6,12 +6,10 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'SOTPTextField'
-  s.version          = '0.1.1'
-  s.summary          = 'OTP verification functionality using Textfield.'
-  s.pod              = 'SOTPTextfield v - 0.1.1'
-  s.platform         = 'iOS'
+Pod::Spec.new do |spec|
+  spec.name             = 'SOTPTextField'
+  spec.version          = '0.1.1'
+  spec.summary          = 'OTP verification functionality using Textfield.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,25 +17,27 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'OTP textfield get the code verified by the function verifyCode.'
+  spec.description      = 'OTP textfield get the code verified by the function verifyCode.'
 
-  s.homepage         = 'https://github.com/sahilshaligram/SOTPTextField'
+  spec.homepage         = 'https://github.com/sahilshaligram/SOTPTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sahilshaligram' => '126651068+sahilshaligram@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => s.version.to_s }
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { 'sahilshaligram' => '126651068+sahilshaligram@users.noreply.github.com' }
+  spec.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  spec.ios.deployment_target = '10.0'
 
-  s.swift_version = '5.0'
-  s.source_files = 'SOTPTextField/Classes/**/*'
+  spec.swift_version = '5.0'
+  spec.source_files = 'SOTPTextField/Classes/**/*'
+
+  spec.frameworks = 'UIKit', 'MapKit'
   
+  spec.git = 'https://github.com/sahilshaligram/SOTPTextField.git'
   # s.resource_bundles = {
   #   'SOTPTextField' => ['SOTPTextField/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
