@@ -20,24 +20,18 @@ Pod::Spec.new do |spec|
   spec.description      = 'OTP textfield get the code verified by the function verifyCode.'
 
   spec.homepage         = 'https://github.com/sahilshaligram/SOTPTextField'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'sahilshaligram' => '126651068+sahilshaligram@users.noreply.github.com' }
   spec.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  spec.ios.deployment_target = '10.0'
-
-  spec.swift_version = '5.0'
+  
   spec.source_files = 'SOTPTextField/Classes/**/*'
-
-  spec.frameworks = 'UIKit', 'MapKit'
   
   spec.git = 'https://github.com/sahilshaligram/SOTPTextField.git'
   # s.resource_bundles = {
   #   'SOTPTextField' => ['SOTPTextField/Assets/*.png']
   # }
 
+  #spec.frameworks = 'UIKit', 'MapKit'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
