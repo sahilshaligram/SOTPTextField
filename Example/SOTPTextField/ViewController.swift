@@ -25,13 +25,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func verifyOtlBtnAction(_ sender: UIButton) {
-        otpTextField.verifyOTP("456789") { isVerified in
+        let otpToVerifywith = "456789"
+        otpTextField.verifyOTP(otpToVerifywith) { isVerified in
             if isVerified {
-                sender.setTitle("Success", for: .normal)
-                sender.tintColor = .green
+                print("verified")
             } else {
-                sender.setTitle("In valid OTP", for: .normal)
-                sender.tintColor = .red
+                print("inValidOTP")
             }
         }
     }

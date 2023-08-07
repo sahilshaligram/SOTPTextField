@@ -16,9 +16,15 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 SOTPTextField is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod 'SOTPTextField'
 ```
+
+## Usage
+
+ - Assign the SOTPTextField class to your textfield
+ - Set the properties according to your requirement
+ - Verify the otp using the 'verifyOTP' function
 
 ## Author
 

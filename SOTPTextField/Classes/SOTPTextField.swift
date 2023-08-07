@@ -35,7 +35,7 @@ public class SOTPTextField: UITextField {
             isPrivate = newValue
         }
     }
-    private var bColor: UIColor = UIColor.lightGray
+    private var bColor: UIColor = .lightGray
     @IBInspectable
     var borderColor: UIColor {
         get {
@@ -43,6 +43,16 @@ public class SOTPTextField: UITextField {
         }
         set {
             bColor = newValue
+        }
+    }
+    private var bcColor: UIColor = .clear
+    @IBInspectable
+    var backgroundClr: UIColor {
+        get {
+            return bcColor
+        }
+        set {
+            bcColor = newValue
         }
     }
     private var successfulColor: UIColor = .green
@@ -95,6 +105,7 @@ public class SOTPTextField: UITextField {
     func prepareUI() {
         heightAnchor.constraint(equalToConstant: 66).isActive = true
         textInputView.isHidden = true
+        borderStyle = .none
         selectAll(nil)
         delegate = self
         let width = Int(frame.size.width)
@@ -119,6 +130,7 @@ public class SOTPTextField: UITextField {
     func prepareTextfields() {
         let textField = UITextField(frame: CGRect(x: 0, y: 0, width: txtWidth, height: 50))
         textField.isEnabled = true
+        textField.backgroundColor = bcColor
         textField.layer.borderWidth = 1.0
         textField.layer.borderColor = bColor.cgColor
         textField.textAlignment = .center
