@@ -1,5 +1,5 @@
 PODS:
-  - SOTPTextField (0.1.1)
+  - SOTPTextField (0.1.2)
 
 DEPENDENCIES:
   - SOTPTextField (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SOTPTextField: f741acb1ce643a08318f4e20bd0154697439f604
+  SOTPTextField: c469680e8302d9037b4449905786252166b35dce
 
 PODFILE CHECKSUM: c7865dd6aac9515bfbcd076c9f5868b6980fe8bd
 

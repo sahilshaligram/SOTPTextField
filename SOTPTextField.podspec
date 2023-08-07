@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SOTPTextField'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'OTP verification functionality using Textfield.'
 
 # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ Pod::Spec.new do |s|
 
   s.swift_version = "5.0"
   s.source_files = 'SOTPTextField/Classes/**/*'
+  s.exclude_files = "SOTPTextField/Classes/*.plist"
   
   # s.resource_bundles = {
   #   'SOTPTextField' => ['SOTPTextField/Assets/*.png']
