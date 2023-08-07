@@ -15,11 +15,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AF0EBF635FE9EC1F9EFAFB89 /* Pods_SOTPTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45E681F7C3101E6C8BC2B21 /* Pods_SOTPTextField_Example.framework */; };
-		BD2772FE2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.00.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2772F92A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.00.png */; };
-		BD2772FF2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.14.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2772FA2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.14.png */; };
-		BD2773002A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.27.39.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2772FB2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.27.39.png */; };
-		BD2773012A80EA19001D525D /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2772FC2A80EA19001D525D /* Screenshot 2023-08-07 at 2.26.05 PM.png */; };
-		BD2773022A80EA19001D525D /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2772FD2A80EA19001D525D /* Screenshot 2023-08-07 at 1.59.46 PM.png */; };
+		BD18F6B92A80EDDA0009AE69 /* initial view.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B42A80EDDA0009AE69 /* initial view.png */; };
+		BD18F6BA2A80EDDA0009AE69 /* verified View.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B52A80EDDA0009AE69 /* verified View.png */; };
+		BD18F6BB2A80EDDA0009AE69 /* inValid OTP View.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B62A80EDDA0009AE69 /* inValid OTP View.png */; };
+		BD18F6BC2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */; };
+		BD18F6BD2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +49,11 @@
 		913CFA53FA3F837720FBD10A /* Pods-SOTPTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOTPTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SOTPTextField_Tests/Pods-SOTPTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		956FC74595DD694874FA1D12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B79CF87F2232D4DC8AEF1285 /* Pods-SOTPTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOTPTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-SOTPTextField_Tests/Pods-SOTPTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BD2772F92A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.00.png"; sourceTree = "<group>"; };
-		BD2772FA2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.14.png"; sourceTree = "<group>"; };
-		BD2772FB2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.27.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.27.39.png"; sourceTree = "<group>"; };
-		BD2772FC2A80EA19001D525D /* Screenshot 2023-08-07 at 2.26.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 2.26.05 PM.png"; sourceTree = "<group>"; };
-		BD2772FD2A80EA19001D525D /* Screenshot 2023-08-07 at 1.59.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 1.59.46 PM.png"; sourceTree = "<group>"; };
+		BD18F6B42A80EDDA0009AE69 /* initial view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "initial view.png"; sourceTree = "<group>"; };
+		BD18F6B52A80EDDA0009AE69 /* verified View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verified View.png"; sourceTree = "<group>"; };
+		BD18F6B62A80EDDA0009AE69 /* inValid OTP View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inValid OTP View.png"; sourceTree = "<group>"; };
+		BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 2.26.05 PM.png"; sourceTree = "<group>"; };
+		BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 1.59.46 PM.png"; sourceTree = "<group>"; };
 		D45E681F7C3101E6C8BC2B21 /* Pods_SOTPTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOTPTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C25F09202656E40814D6A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB75936C5F38E7670DAE992A /* Pods-SOTPTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOTPTextField_Example.debug.xcconfig"; path = "Target Support Files/Pods-SOTPTextField_Example/Pods-SOTPTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				6C5389A9C031154B45F73C67 /* Pods */,
-				BD2772F82A80EA19001D525D /* ScreenShots */,
+				BD18F6B32A80EDDA0009AE69 /* ScreenShots */,
 				5CA2BC8B83BBCBFB1507EB50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -170,14 +170,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		BD2772F82A80EA19001D525D /* ScreenShots */ = {
+		BD18F6B32A80EDDA0009AE69 /* ScreenShots */ = {
 			isa = PBXGroup;
 			children = (
-				BD2772F92A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.00.png */,
-				BD2772FA2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.14.png */,
-				BD2772FB2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.27.39.png */,
-				BD2772FC2A80EA19001D525D /* Screenshot 2023-08-07 at 2.26.05 PM.png */,
-				BD2772FD2A80EA19001D525D /* Screenshot 2023-08-07 at 1.59.46 PM.png */,
+				BD18F6B42A80EDDA0009AE69 /* initial view.png */,
+				BD18F6B52A80EDDA0009AE69 /* verified View.png */,
+				BD18F6B62A80EDDA0009AE69 /* inValid OTP View.png */,
+				BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */,
+				BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */,
 			);
 			path = ScreenShots;
 			sourceTree = "<group>";
@@ -273,14 +273,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2773012A80EA19001D525D /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */,
-				BD2773002A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.27.39.png in Resources */,
+				BD18F6BC2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */,
+				BD18F6B92A80EDDA0009AE69 /* initial view.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				BD18F6BB2A80EDDA0009AE69 /* inValid OTP View.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				BD2772FF2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.14.png in Resources */,
-				BD2772FE2A80EA19001D525D /* Simulator Screenshot - iPhone 14 Pro Max - 2023-08-07 at 14.28.00.png in Resources */,
-				BD2773022A80EA19001D525D /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */,
+				BD18F6BA2A80EDDA0009AE69 /* verified View.png in Resources */,
+				BD18F6BD2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
