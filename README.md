@@ -23,13 +23,10 @@ pod 'SOTPTextField'
 ## Screen Shots
 * Default behavior of otpTextfield if you dont change any properties
     - Before entering otp
-
 ![alt text](https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/initial%20view.png?raw=true)
     - Otp success Color
-
 ![alt text](https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/verified%20View.png?raw=true)
     - Otp failure Color
-
 ![alt text](https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/inValid%20OTP%20View.png?raw=true)
 
 ## Usage

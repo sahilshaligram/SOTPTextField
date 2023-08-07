@@ -117,7 +117,7 @@ public class SOTPTextField: UITextField {
         heightAnchor.constraint(equalToConstant: 66).isActive = true
         textInputView.isHidden = true
         borderStyle = .none
-        selectAll(nil)
+//        selectAll(nil)
         delegate = self
         let width = Int(frame.size.width)
         txtWidth = Int(width/number) - 16
@@ -128,7 +128,7 @@ public class SOTPTextField: UITextField {
         otpView?.distribution = .fillEqually
         otpView?.sizeToFit()
         addSubview(otpView!)
-        bringSubviewToFront(otpView!)
+        bringSubview(toFront: otpView!)
         for i in 0..<number {
             prepareTextfields()
             arrTextfields[i].tag = i
