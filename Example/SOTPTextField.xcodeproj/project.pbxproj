@@ -15,9 +15,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		AF0EBF635FE9EC1F9EFAFB89 /* Pods_SOTPTextField_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45E681F7C3101E6C8BC2B21 /* Pods_SOTPTextField_Example.framework */; };
+		BD02DAC22A80F6EC00FBC4FB /* inValid OTP View.png in Resources */ = {isa = PBXBuildFile; fileRef = BD02DAC12A80F6EC00FBC4FB /* inValid OTP View.png */; };
 		BD18F6B92A80EDDA0009AE69 /* initial view.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B42A80EDDA0009AE69 /* initial view.png */; };
 		BD18F6BA2A80EDDA0009AE69 /* verified View.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B52A80EDDA0009AE69 /* verified View.png */; };
-		BD18F6BB2A80EDDA0009AE69 /* inValid OTP View.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B62A80EDDA0009AE69 /* inValid OTP View.png */; };
 		BD18F6BC2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */; };
 		BD18F6BD2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */; };
 /* End PBXBuildFile section */
@@ -49,9 +49,9 @@
 		913CFA53FA3F837720FBD10A /* Pods-SOTPTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOTPTextField_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SOTPTextField_Tests/Pods-SOTPTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		956FC74595DD694874FA1D12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B79CF87F2232D4DC8AEF1285 /* Pods-SOTPTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOTPTextField_Tests.release.xcconfig"; path = "Target Support Files/Pods-SOTPTextField_Tests/Pods-SOTPTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD02DAC12A80F6EC00FBC4FB /* inValid OTP View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inValid OTP View.png"; sourceTree = "<group>"; };
 		BD18F6B42A80EDDA0009AE69 /* initial view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "initial view.png"; sourceTree = "<group>"; };
 		BD18F6B52A80EDDA0009AE69 /* verified View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verified View.png"; sourceTree = "<group>"; };
-		BD18F6B62A80EDDA0009AE69 /* inValid OTP View.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inValid OTP View.png"; sourceTree = "<group>"; };
 		BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 2.26.05 PM.png"; sourceTree = "<group>"; };
 		BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2023-08-07 at 1.59.46 PM.png"; sourceTree = "<group>"; };
 		D45E681F7C3101E6C8BC2B21 /* Pods_SOTPTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOTPTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -173,9 +173,9 @@
 		BD18F6B32A80EDDA0009AE69 /* ScreenShots */ = {
 			isa = PBXGroup;
 			children = (
+				BD02DAC12A80F6EC00FBC4FB /* inValid OTP View.png */,
 				BD18F6B42A80EDDA0009AE69 /* initial view.png */,
 				BD18F6B52A80EDDA0009AE69 /* verified View.png */,
-				BD18F6B62A80EDDA0009AE69 /* inValid OTP View.png */,
 				BD18F6B72A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png */,
 				BD18F6B82A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png */,
 			);
@@ -276,8 +276,8 @@
 				BD18F6BC2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 2.26.05 PM.png in Resources */,
 				BD18F6B92A80EDDA0009AE69 /* initial view.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				BD18F6BB2A80EDDA0009AE69 /* inValid OTP View.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				BD02DAC22A80F6EC00FBC4FB /* inValid OTP View.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				BD18F6BA2A80EDDA0009AE69 /* verified View.png in Resources */,
 				BD18F6BD2A80EDDA0009AE69 /* Screenshot 2023-08-07 at 1.59.46 PM.png in Resources */,
