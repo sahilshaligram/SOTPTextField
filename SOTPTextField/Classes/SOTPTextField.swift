@@ -15,6 +15,17 @@ public class SOTPTextField: UITextField {
             number = newValue > 8 ? number : newValue
         }
     }
+    private var cRedius: CGFloat = 8
+    @IBInspectable
+    var cornerRadius: CGFloat {
+        get {
+            return cRedius
+        }
+        set {
+            cRedius = newValue
+        }
+    }
+    
     private var round: Bool = false
     @IBInspectable
     var isRounded: Bool {
@@ -139,7 +150,7 @@ public class SOTPTextField: UITextField {
             textField.layer.cornerRadius = textField.bounds.size.height / 2
         } else {
             textField.clipsToBounds = true
-            textField.layer.cornerRadius = 8
+            textField.layer.cornerRadius = cRedius
         }
         textField.textColor = .black
         textField.placeholder = "0"

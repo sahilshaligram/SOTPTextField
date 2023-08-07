@@ -20,14 +20,15 @@ it, simply add the following line to your Podfile:
 pod 'SOTPTextField'
 ```
 
-##Screen Shots
-- Before entering otp
+## Screen Shots
+* Default behavior of otpTextfield if you dont change any properties
+    - Before entering otp
 
 ![alt text](https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/initial%20view.png?raw=true)
-- Otp success Color
+    - Otp success Color
 
 ![alt text](https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/verified%20View.png?raw=true)
-- Otp failure Color
+    - Otp failure Color
 
 ![alt text](https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/inValid%20OTP%20View.png?raw=true)
 
