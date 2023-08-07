@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'SOTPTextField'
   s.version          = '0.1.1'
   s.summary          = 'OTP verification functionality using Textfield.'
-  s.Pod              = 'SOTPTextfield v - 0.1.1'
+  s.pod              = 'SOTPTextfield v - 0.1.1'
   s.platform         = 'iOS'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.description      = 'OTP textfield get the code verified by the function verifyCode.'
 
   s.homepage         = 'https://github.com/sahilshaligram/SOTPTextField'
-  s.screenshots     = 'https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/initial%20view.png?raw=true', 'https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/verified%20View.png?raw=true', 'https://github.com/sahilshaligram/SOTPTextField/blob/main/Example/ScreenShots/inValid%20OTP%20View.png?raw=true'
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sahilshaligram' => '126651068+sahilshaligram@users.noreply.github.com' }
   s.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => s.version.to_s }
