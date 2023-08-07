@@ -62,10 +62,6 @@ otpTextField.verifyOTP("456789") { isVerified in
 }
 ```
 
-## Author
-
-sahilshaligram, 126651068+sahilshaligram@users.noreply.github.com
-
 ## License
 
 SOTPTextField is available under the MIT license. See the LICENSE file for more info.
