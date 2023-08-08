@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/sahilshaligram/SOTPTextField'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sahilshaligram' => '126651068+sahilshaligram@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sahilshaligram/SOTPTextField.git', :tag => 'main'}
 
   s.ios.deployment_target = '11.0'
 
