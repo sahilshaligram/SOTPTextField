@@ -9,9 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
-
 ## Screen Shots
 * Default behavior of otpTextfield if you dont change any properties
     - Before entering otp
