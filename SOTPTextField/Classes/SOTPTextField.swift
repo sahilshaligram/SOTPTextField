@@ -88,7 +88,7 @@ public class SOTPTextField: UITextField {
     }
     
     //MARK: - internal properties -
-    private var otpView: UIStackView?
+    private var otpView: UIStackView!
     private var arrTextfields: [UITextField] = []
     private var arrOTP: [Int] = []
     private var txtWidth: Int = 0
@@ -103,14 +103,9 @@ public class SOTPTextField: UITextField {
         prepareUI()
     }
     
-    public override func layoutSubviews() {
-        super.layoutSubviews()
-        otpView?.translatesAutoresizingMaskIntoConstraints = false
-        otpView?.topAnchor.constraint(equalTo: topAnchor).isActive = true
-        otpView?.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
-        otpView?.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-        otpView?.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-    }
+//    public override func layoutSubviews() {
+//        super.layoutSubviews()
+//    }
     
     //MARK: - Prepare initial UI -
     func prepareUI() {
@@ -122,17 +117,22 @@ public class SOTPTextField: UITextField {
         let width = Int(frame.size.width)
         txtWidth = Int(width/number) - 16
         otpView = UIStackView()
-        otpView?.axis = .horizontal
-        otpView?.spacing = 8.0
-        otpView?.alignment = .fill
-        otpView?.distribution = .fillEqually
-        otpView?.sizeToFit()
-        addSubview(otpView!)
-        bringSubviewToFront(otpView!) 
+        otpView.axis = .horizontal
+        otpView.spacing = 8.0
+//        otpView.alignment = .fill
+        otpView.distribution = .fillEqually
+        otpView.sizeToFit()
+        addSubview(otpView)
+        otpView.translatesAutoresizingMaskIntoConstraints = false
+        otpView.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        otpView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
+        otpView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        otpView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        bringSubviewToFront(otpView)
         for i in 0..<number {
             prepareTextfields()
             arrTextfields[i].tag = i
-            otpView?.addArrangedSubview(arrTextfields[i])
+            otpView.addArrangedSubview(arrTextfields[i])
         }
         addToolBar()
         arrTextfields.first?.becomeFirstResponder()
@@ -166,7 +166,7 @@ public class SOTPTextField: UITextField {
         arrTextfields.append(textField)
     }
     
-    public func verifyOTP(_ otp: String, _ completionHandler: @escaping ((Bool)->())) {
+    public func verifyOTP(_ otp: String, _ completionHandler: @escaping ((_ isVerified: Bool)->())) {
         let enteredOtp = arrOTP.map({ "\($0)" }).joined()
         for textfield in arrTextfields {
             textfield.layer.borderColor = enteredOtp == otp ? successfulColor.cgColor : failureColor.cgColor

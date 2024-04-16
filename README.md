@@ -1,6 +1,6 @@
 # SOTPTextField
 
-[![CI Status](https://img.shields.io/travis/sahilshaligram/SOTPTextField.svg?style=flat)](https://travis-ci.org/sahilshaligram/SOTPTextField)
+[![CIStatus](https://img.shields.io/travis/sahilshaligram/SOTPTextField.svg?style=flat)](https://travis-ci.org/sahilshaligram/SOTPTextField)
 [![Version](https://img.shields.io/cocoapods/v/SOTPTextField.svg?style=flat)](https://cocoapods.org/pods/SOTPTextField)
 [![License](https://img.shields.io/cocoapods/l/SOTPTextField.svg?style=flat)](https://cocoapods.org/pods/SOTPTextField)
 [![Platform](https://img.shields.io/cocoapods/p/SOTPTextField.svg?style=flat)](https://cocoapods.org/pods/SOTPTextField)
@@ -11,14 +11,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-## Installation
-
-SOTPTextField is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'SOTPTextField'
-```
 
 ## Screen Shots
 * Default behavior of otpTextfield if you dont change any properties
@@ -60,6 +52,15 @@ otpTextField.verifyOTP("456789") { isVerified in
         print("inValidOTP")
     }
 }
+```
+
+## Installation
+
+SOTPTextField is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'SOTPTextField'
 ```
 
 ## License
