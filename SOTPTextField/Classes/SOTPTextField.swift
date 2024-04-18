@@ -103,23 +103,17 @@ public class SOTPTextField: UITextField {
         prepareUI()
     }
     
-//    public override func layoutSubviews() {
-//        super.layoutSubviews()
-//    }
-    
     //MARK: - Prepare initial UI -
     func prepareUI() {
         heightAnchor.constraint(equalToConstant: 66).isActive = true
         textInputView.isHidden = true
         borderStyle = .none
-//        selectAll(nil)
         delegate = self
         let width = Int(frame.size.width)
         txtWidth = Int(width/number) - 16
         otpView = UIStackView()
         otpView.axis = .horizontal
         otpView.spacing = 8.0
-//        otpView.alignment = .fill
         otpView.distribution = .fillEqually
         otpView.sizeToFit()
         addSubview(otpView)
